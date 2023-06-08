@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library_Management_HomePage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>LIBRARY MANAGEMENT SYSTEM</h1>
+    <nav class="nav-items">
+      <a href="Book_reg_LMS/book_reg_lms.html">Book Register</a>
+      <a href="Submission_LMS/submission.html">Book Submission</a>
+      <a href="List_LMS/list_lms.html">List of Books</a>
+      <a href="About_LMS/About_lms.html">About</a>
+    </nav>
+  </header>
+  <main>
+    <div id="loginPopup" class="login-popup">
+      <div class="login-content">
+       
+        <h2>Login</h2>
+        <form id="loginForm">
+          <input type="text" id="username" placeholder="Username" required>
+          <input type="password" id="password" placeholder="Password" required>
+          <p id="error-message" class="error-message">Invalid username or password.</p>
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="intro">
+      <h1>Welcome to LMS</h1>
+      <p>"Libraries are the cornerstone of democracy, where information is free and equally accessible to all.." </p>
+      <p>                                 - Vartan Gregorian </p>
+    </div>
+    <div class="about-book">
+      <div class="about-book-text">
+        <h2 >About Books</h2>
+        <div class = "about-book-para">
+        <p>Books are windows into different worlds.<br> Containing knowledge and ideas that have the power to educate, entertain, and inspire.<br> They are vessels of human experience.<br> Carrying the wisdom, creativity, and imagination of countless authors.<br>They have the ability to transport readers to different times, allowing us to explore new horizons.</p>
+      </div>
+      </div>
+      <img src="Books.jpg" alt="me">
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="copy">&copy; 2023 Developer</div>
+    <div class="bottom-links">
+      <div class="links">
+        <span>Reach Us</span>
+        <a href="https://www.linkedin.com/in/gladys-juliana-andrews-a64468210/"><i class="LinkedIn"></i>LinkedIn</a>
+        <a href="https://github.com/GladysJulianaAndrews"><i class="GitHub"></i>GitHub</a>
+      </div>
+      
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

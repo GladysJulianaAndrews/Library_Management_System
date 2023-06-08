@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%),url('./book_reg_lms_bg.jpg');
+    background-repeat: no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(245, 241, 243);
+
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  li span {
+    color:cornsilk;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  li button {
+    margin-left: 10px;
+  }
+
+  a {
+    padding: 10px;
+    text-align: center;
+    display:block;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(185, 219, 241);
+    border: 2px solid  rgb(185, 219, 241) ;
+    text-decoration: none;
+    color: rgb(5, 3, 108);
+    border-radius: 8px;
+    font-size: 20px;	  
+ } 

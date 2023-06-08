@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: #540909;
+    box-sizing: border-box;
+}
+.About-lms {
+    width: 100%;
+    text-align: center;
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url('../About_LMS/About_bg.jpg');
+  }
+  h1{
+    color:  rgb(245, 221, 221);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+  }
+  img {
+    border-radius: 50%;
+  }
+  
+  p {
+    font-size: 20px;
+    color:  rgb(245, 221, 221);
+  } 
+  h3 {
+    text-shadow:5px;
+  }
+
+  a {
+    padding: 10px;
+    text-align: center;
+    display: block;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(108, 3, 24);
+    border: 2px solid rgb(134, 64, 7);
+    text-decoration: none;
+    color: rgb(245, 221, 221);
+    border-radius: 8px;
+    font-size: 20px;	  
+ } 
